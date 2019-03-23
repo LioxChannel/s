@@ -13,7 +13,7 @@ channel.send(`**Liox spam , Liox spam , Liox spam , Liox spam Liox spamLiox spam
 client.on('message', message => {
  if(message.author.id !== "474167020099993640" )return;
 
-let command = "1say"
+let command = "2say"
 
 if (!message.content.startsWith(command) || message.author.bot ) return;
 const args = message.content.slice(command.length).split(/ +/g).join(" ");
